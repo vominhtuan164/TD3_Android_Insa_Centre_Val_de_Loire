@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TD3 Minh Tuan VO</string>
+    <string name="textview">TextView</string>
+    <string name="fragment_placeholder_text">Contenu ici</string>
+    <string name="main_show_results">JSON Contenu</string>
+    <string name="main_show_img_names">Listes des titres des images</string>
+    <string name="main_show_img">Afficher les images</string>
+    <string name="main_show_advanced">Afficher les images avancé</string>
+    <string name="main_show_favorites">Mes Images Aimé</string>
+
+    <!-- Placeholder Fragment -->
+    <string name="title_activity_my_preference">MyPreferenceActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="r_glage">Réglage</string>
+    <string name="todo">TODO</string>
+</resources>

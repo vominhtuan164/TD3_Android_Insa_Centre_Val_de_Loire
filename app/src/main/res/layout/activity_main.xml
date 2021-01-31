@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="#E0E0E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/flickr_logo"
+            android:contentDescription="@string/todo" />
+
+        <Button
+            android:id="@+id/buttonResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="onClickButtonJSON"
+            android:text="@string/main_show_results"
+            android:textColor="#E3F2FD" />
+
+        <Button
+            android:id="@+id/buttonTitles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gris"
+            android:onClick="onClickButtonTitles"
+            android:text="@string/main_show_img_names"
+            android:textColor="#E8EAF6" />
+
+        <Button
+            android:id="@+id/buttonImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="onClickButtonImages"
+            android:text="@string/main_show_img"
+            android:textColor="#E8EAF6" />
+
+        <Button
+            android:id="@+id/preference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gris"
+            android:onClick="onClickButtonAdvanced"
+            android:text="@string/main_show_advanced"
+            android:textColor="#E8EAF6" />
+
+        <Button
+            android:id="@+id/buttonFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="onClickButtonFavorites"
+            android:text="@string/main_show_favorites"
+            android:textColor="#E8EAF6" />
+
+        <LinearLayout
+            android:id="@+id/layoutFragment"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

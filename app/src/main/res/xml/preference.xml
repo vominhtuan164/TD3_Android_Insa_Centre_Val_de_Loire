@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="keyword"
+        android:title="Changer le mot "
+        android:summary="Renseigner le mot recherche"
+        android:dialogTitle="Veuillez saisir votre mot"
+        />
+    <EditTextPreference
+        android:key="second"
+        android:title="Modifier la fréquence d’interrogation automatique"
+        android:summary="Renseigner le temp"
+        android:dialogTitle="Veuillez saisir votre temp (ms)"
+        />
+</PreferenceScreen>
